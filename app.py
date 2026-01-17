@@ -306,9 +306,6 @@ with st.expander("Mostra anche la versione NON normalizzata (Market − BS)"):
 st.divider()
 st.subheader("Simulazione operazione (payoff/PnL + nozionale equivalente)")
 
-with st.expander("Apri simulatore", expanded=True):
-
-
 
 # ----------------------------
 # PLOT 2: market(mid) vs BS (hist vs IV strike-specific) on custom strike range
@@ -477,3 +474,4 @@ st.caption(
     plt.grid(True)
     plt.tight_layout()
     st.pyplot(fig_sim)
+
